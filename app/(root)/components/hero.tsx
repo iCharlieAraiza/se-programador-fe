@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 const Hero = () => {
     return (
@@ -15,8 +17,8 @@ const Hero = () => {
                         </p>
                         <div className="flex gap-2 flex-wrap my-4 justify-center md:justify-start">
                             <div>
-                                <a href='/temario' className='bg-[#FFB800] text-white px-4 py-2 rounded-lg hover:bg-[#FFA500] transition duration-300'>
-                                    Ver el temario
+                                <a href='/temario' className='bg-[#FFB800] text-white px-8 py-3 rounded-full  hover:bg-[#FFA500] transition duration-300'>
+                                    Ver el temario &#8594;
                                 </a>
                             </div>
                             <div>
@@ -27,7 +29,13 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="">
-                        <div className="w-[200px] h-[200px] bg-amber-400"></div>
+                        <Image
+                            src="/img/hero-img.png"
+                            alt="Hero Image"
+                            width={200}
+                            height={200}
+                            className="w-[200px] md:w-[200px] lg:w-[300px] h-auto display-block mx-auto md:mx-0"
+                        />
                     </div>
                 </div>
             </div>

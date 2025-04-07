@@ -17,7 +17,7 @@ const Description = (props: Props) => {
             <div className="max-w-6xl mx-auto px-4 py-12">
                 <div className="font-semibold tracking-tight text-4xl text-center">
                     <h2 className='py-10'>
-                        ¿En qué consiste la plataorma y Bootcamp séprogramador?
+                        ¿En qué consiste la plataforma y bootcamp séprogramador?
                     </h2>
                 </div>
                 <div className="md:grid grid-cols-2">
@@ -34,7 +34,7 @@ const Description = (props: Props) => {
                         <h2 className='text-xl font-semibold tracking-tight mb-2'>
                             Temario
                         </h2>
-                        <div className="border-l-2 px-4">
+                        <div className="border-l-2 px-4 mb-4">
                             <ul className="bg-[#FFFCF5] rounded">
                                 {
                                     courses.map((course, index) => (
@@ -43,8 +43,8 @@ const Description = (props: Props) => {
                                 }
                             </ul>
                         </div>
-                        <Link href="/temario">
-                            Ver más del Temario
+                        <Link href="/temario" className='text-[#FFB800] font-semibold hover:text-amber-400 transition duration-300'>
+                            Ver más del Temario &#8594;
                         </Link>
                     </div>
                 </div>

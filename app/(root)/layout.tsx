@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../components/shared/header';
 import Footer from '../../components/shared/footer';
-import Hero from '../../components/shared/hero';
+import Hero from './components/hero';
 
 export default function RootLayout({
     children,
