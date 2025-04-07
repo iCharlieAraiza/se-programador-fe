@@ -43,8 +43,8 @@ const Description = (props: Props) => {
                                 }
                             </ul>
                         </div>
-                        <Link href="/temario" className='text-[#FFB800] font-semibold hover:text-amber-400 transition duration-300'>
-                            Ver más del Temario &#8594;
+                        <Link href="/temario" className='text-[#937723] font-semibold hover:text-amber-400 transition duration-300'>
+                            Ver más del temario &#8594;
                         </Link>
                     </div>
                 </div>

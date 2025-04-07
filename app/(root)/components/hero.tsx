@@ -17,8 +17,9 @@ const Hero = () => {
                         </p>
                         <div className="flex gap-2 flex-wrap my-4 justify-center md:justify-start">
                             <div>
-                                <a href='/temario' className='bg-[#FFB800] text-white px-8 py-3 rounded-full  hover:bg-[#FFA500] transition duration-300'>
-                                    Ver el temario &#8594;
+                                <a href='/temario' className='bg-white border-2 border-[#937723] text-[#937723] px-8 py-3 rounded-full  hover:bg-[#937723] hover:text-white transition duration-300 font-medium'>
+                                    &#8594;
+                                    Ver el temario
                                 </a>
                             </div>
                             <div>
@@ -42,7 +43,7 @@ const Hero = () => {
             <div className="border-t">
                 <div className="max-w-6xl mx-auto p-4 flex items-center justify-between">
                     <p className='text-center text-sm'>
-                        Proyecto de <a href='https://carlosaraiza.me' target="_blank" >Carlos Araiza</a> para Fundación Celis 
+                        Proyecto de <a href='https://carlosaraiza.me' target="_blank" >Carlos Araiza</a> para Fundación Celis
                     </p>
                     <p className='font-semibold'>
                         #YoSoyLiderComunitario

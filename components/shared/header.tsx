@@ -2,6 +2,8 @@
 
 import { CircleX, Menu } from 'lucide-react'
 import React, { useState } from 'react'
+import LogoSVG from './logo';
+import Link from 'next/link';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,18 +26,30 @@ const Header = () => {
             }
             <header className='bg-[#FFFCF5]'>
                 <div className='max-w-7xl mx-auto flex items-center justify-between p-4'>
-                    <h1>SéProgramador</h1>
+                    <LogoSVG />
 
                     <div className="md:hidden cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
                         <Menu />
                     </div>
 
-                    <nav className='hidden md:flex'>
+                    <nav className='hidden md:flex items-center font-medium'>
                         <ul className='flex space-x-4'>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li className='flex items-center gap-4'>
+                                <span className='text-amber-600 font-bold'>/</span>
+                                <a href="/about">Acerca de</a></li>
+                            <li className='flex items-center gap-4'>
+                                <span className='text-amber-600 font-bold'>/</span>
+                                <a href="/contact">Contacto</a>
+                            </li>
                         </ul>
+                        <div className="flex items-center space-x-4 ml-4">
+                            <Link href="/signin">
+                                Iniciar sesión
+                            </Link>
+                            <Link href={"/signup"} className='bg-[#937723] text-white px-6 py-2 rounded-full hover:bg-white hover:text-[#937723] border hover:border-[#937723] transition duration-300 font-medium'>
+                                Regístrate
+                            </Link>
+                        </div>
                     </nav>
                 </div>
             </header>
