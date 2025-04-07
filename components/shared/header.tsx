@@ -26,7 +26,9 @@ const Header = () => {
             }
             <header className='bg-[#FFFCF5]'>
                 <div className='max-w-7xl mx-auto flex items-center justify-between p-4'>
-                    <LogoSVG />
+                    <Link href="/" className='flex items-center'>
+                        <LogoSVG />
+                    </Link>
 
                     <div className="md:hidden cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
                         <Menu />

@@ -6,10 +6,10 @@ type Props = {}
 const Description = (props: Props) => {
 
     const courses = [
-        { title: "Entender los procesos técnicos", slug: "entender-los-procesos-tecnicos" },
-        { title: "Entender los procesos técnicos", slug: "entender-los-procesos-tecnicos" },
-        { title: "Entender los procesos técnicos", slug: "entender-los-procesos-tecnicos" },
-        { title: "Entender los procesos técnicos", slug: "entender-los-procesos-tecnicos" },
+        { title: "Entender los procesos técnicos", slug: "tema" },
+        { title: "Entender los procesos técnicos", slug: "tema" },
+        { title: "Entender los procesos técnicos", slug: "tema" },
+        { title: "Entender los procesos técnicos", slug: "tema" },
     ]
 
     return (
@@ -55,13 +55,13 @@ const Description = (props: Props) => {
 
 const CourseItem = ({ title, slug }: { title: string, slug: string }) => {
     return (
-        <li className='p-4 flex items-center gap-2 hover:bg-slate-100/50 rounded cursor-pointer'>
+        <Link href={slug} className='p-4 flex items-center gap-2 hover:bg-slate-100/50 rounded cursor-pointer'>
             <div className="w-10 h-10 bg-[#FFB800] rounded-full border-2"></div>
             <div className="">
                 <p className='font-semibold my-[0!important]'>{title}</p>
                 <p className='my-[0!important]'>4 sesiones</p>
             </div>
-        </li>
+        </Link>
     )
 }
 
