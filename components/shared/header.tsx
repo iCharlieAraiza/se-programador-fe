@@ -38,7 +38,7 @@ const Header = () => {
                         <ul className='flex space-x-4'>
                             <li className='flex items-center gap-4'>
                                 <span className='text-amber-600 font-bold'>/</span>
-                                <a href="/about">Acerca de</a></li>
+                                <a href="/acerca-de">Acerca de</a></li>
                             <li className='flex items-center gap-4'>
                                 <span className='text-amber-600 font-bold'>/</span>
                                 <a href="/contact">Contacto</a>
