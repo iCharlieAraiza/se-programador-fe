@@ -1,16 +1,17 @@
-export default async function Page({
-    params,
-  }: {
-    params: Promise<{ slug: string }>
-  }) {
-    const { slug } = await params
-    const { default: Post } = await import(`@/content/${slug}.mdx`)
-   
-    return <Post />
-  }
-   
-  export function generateStaticParams() {
-    return [{ slug: 'welcome' }, { slug: 'about' }]
-  }
-   
-  export const dynamicParams = false
+
+
+import React from 'react'
+
+type Props = {}
+
+const CurriculumPage = (props: Props) => {
+  return (
+    <div>
+        <h2 className='text-2xl'>
+            Lista de los temas por curso
+        </h2>
+    </div>
+  )
+}
+
+export default CurriculumPage
