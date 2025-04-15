@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const Hero = () => {
@@ -17,10 +18,10 @@ const Hero = () => {
                         </p>
                         <div className="flex gap-2 flex-wrap my-4 justify-center md:justify-start">
                             <div>
-                                <a href='/temario' className='bg-white border-2 border-[#937723] text-[#937723] px-8 py-3 rounded-full  hover:bg-[#937723] hover:text-white transition duration-300 font-medium'>
+                                <Link href='/temas' className='bg-white border-2 border-[#937723] text-[#937723] px-8 py-3 rounded-full  hover:bg-[#937723] hover:text-white transition duration-300 font-medium'>
                                     &#8594;
                                     Ver el temario
-                                </a>
+                                </Link>
                             </div>
                             <div>
                                 <a href='/contacto'>
