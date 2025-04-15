@@ -38,10 +38,10 @@ const Header = () => {
                         <ul className='flex space-x-4'>
                             <li className='flex items-center gap-4'>
                                 <span className='text-amber-600 font-bold'>/</span>
-                                <a href="/acerca-de">Acerca de</a></li>
+                                <Link href="/acerca">Acerca de</Link></li>
                             <li className='flex items-center gap-4'>
                                 <span className='text-amber-600 font-bold'>/</span>
-                                <a href="/contact">Contacto</a>
+                                <Link href="/contacto">Contacto</Link>
                             </li>
                         </ul>
                         <div className="flex items-center space-x-4 ml-4">
@@ -60,9 +60,9 @@ const Header = () => {
                 <div className="md:hidden">
                     <nav className='bg-[#FFFCF5]'>
                         <ul className='flex flex-col space-y-4 p-4'>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><Link href="/">Inicio</Link></li>
+                            <li><Link href="/Acerca de">Acerca de</Link></li>
+                            <li><Link href="/contacto">Contacto</Link></li>
                         </ul>
                     </nav>
                 </div>

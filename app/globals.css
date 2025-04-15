@@ -120,44 +120,52 @@
   body {
     @apply bg-background text-foreground;
   }
-}
 
-
-
-.article-layer p, article p {
-  margin: 1em 0;
-  font-size: 1.125rem;
-}
-
-.article-layer h1 {
-  font-size: var(--text-4xl);
-  /* 1.875rem (30px) */
-  line-height: var(--text-3xl--line-height);
-  font-weight: 600;
-
-  letter-spacing: var(--tracking-tight);
-  margin-bottom: var(--text-4xl--line-height);
-}
-
-.article-layer h2, h3 {
-  font-weight: 500;
-}
-
-.article-layer h2 {
-  font-size: var(--text-3xl);
-  /* 1.5rem (24px) */
-  line-height: var(--text-3xl--line-height);
+  .article-layer p, article p {
+    margin: 1em 0;
+    font-size: 1.125rem;
+  }
   
-  margin-top: 1.6rem;
-  margin-bottom: 1.3rem;
+  .article-layer h1 {
+    font-size: var(--text-4xl);
+    /* 1.875rem (30px) */
+    line-height: var(--text-3xl--line-height);
+    font-weight: 600;
+  
+    letter-spacing: var(--tracking-tight);
+    margin-bottom: var(--text-4xl--line-height);
+  }
+  
+  .article-layer h2, h3 {
+    font-weight: 500;
+  }
+  
+  .article-layer h2 {
+    font-size: var(--text-3xl);
+    /* 1.5rem (24px) */
+    line-height: var(--text-3xl--line-height);
+    
+    margin-top: 1.6rem;
+    margin-bottom: 1.3rem;
+  }
+  
+  .article-layer h3 {
+    font-size: var(--text-2xl);
+    /* 1.25rem (20px) */
+    line-height: var(--text-2xl--line-height);
+    margin-bottom: var(--text-3xl--line-height);
+  
+    margin-top: 1.6rem;
+    margin-bottom: 1.3rem;
+  }  
+
+  .article-layer .subtitle {
+    font-size: 1.4em!important;
+    font-weight: 500;
+    margin-top: 0.3em;
+  }
+  
 }
 
-.article-layer h3 {
-  font-size: var(--text-2xl);
-  /* 1.25rem (20px) */
-  line-height: var(--text-2xl--line-height);
-  margin-bottom: var(--text-3xl--line-height);
 
-  margin-top: 1.6rem;
-  margin-bottom: 1.3rem;
-}
+
