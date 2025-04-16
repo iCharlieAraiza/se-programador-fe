@@ -55,13 +55,13 @@ const TemasPage = (props: Props) => {
                   <div className="">
                     <div className="w-10 h-10 border-2 border-slate-900 rounded-full flex items-center justify-center">
                       <span className='font-semibold text-lg'>
-                        {topic.numberTopics}
+                        &rarr;
                       </span>
                     </div>
                   </div>
                   <div className="">
                     <p className='font-semibold my-[0!important] tracking-tight text-lg leading-none'>{topic.title}</p>
-                    <p>{topic.numberTopics} cursos</p>
+                    <p>{topic.numberTopics} cursos disponibles</p>
                   </div>
                 </Link>
               ))
