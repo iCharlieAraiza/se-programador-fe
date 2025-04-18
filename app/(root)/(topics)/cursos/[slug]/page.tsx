@@ -1,3 +1,5 @@
+import { COURSES, CoursesType } from "@/constants/data"
+
 export default async function Page({
     params,
 }: {
@@ -10,7 +12,10 @@ export default async function Page({
 }
 
 export function generateStaticParams() {
-    return [{ slug: 'teche-fff' }]
+    const courses = COURSES.map((course : CoursesType) => ({
+        slug: course.slug,
+    }))
+    return courses
 }
 
 export const dynamicParams = false

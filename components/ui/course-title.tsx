@@ -16,8 +16,8 @@ export const CourseTitle = (props: Props) => {
                     &larr; Ver todos los temas
                 </Link>
             </div>
-            <header className='flex items-center justify-center gap-4'>
-                <div className="">
+            <header className='flex justify-center gap-4 max-w-xl mx-auto'>
+                <div className="pt-2">
                     <div className="w-12 h-12 bg-[#F2E6C5] rounded-full border-4"></div>
                 </div>
                 <div className="">

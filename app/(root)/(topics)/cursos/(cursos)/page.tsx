@@ -13,30 +13,33 @@ interface Topic {
 
 const TemasPage = (props: Props) => {
 
+
+
+
   const topics : Topic[] = [
     {
       id: uuidv4(),
-      title: 'Dominar pruebas técnicas',
+      title: 'Proceso de contratación: entrevista y primer contacto',
       numberModules: 4,
-      uri: 'pruebas-tecnicas'
+      uri: 'proceso-contratacion-entrevista-primer-contacto'
     },
     {
       id: uuidv4(),
-      title: 'Entender procesos técnicos',
+      title: 'Pruebas técnicas: live coding',
       numberModules: 4,
-      uri: 'entender-procesos-tecnicos'
+      uri: 'pruebas-tecnicas-live-coding'
     },
     {
       id: uuidv4(),
-      title: 'Desarrollar habilidades blandas',
+      title: 'Pruebas técnicas: proyectos y actividades',
       numberModules: 4,
-      uri: 'desarrollar-habilidades-blandas'
+      uri: 'pruebas-tecnicas-take-home'
     },
     {
       id: uuidv4(),
-      title: 'Conocer el ecosistema de la programación',
+      title: 'Preparar búsqueda de empleo',
       numberModules: 4,
-      uri: 'conocer-ecosistema-programacion'
+      uri: 'preparar-busqueda-empleo'
     }
   ]
 
@@ -51,7 +54,7 @@ const TemasPage = (props: Props) => {
         <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10'>
             {
               topics.map((topic, index) => (
-                <Link key={`${index}-topic`} href={`/temas/${topic.uri}`} className='p-4 flex items-center gap-4 bg-slate-100/30 hover:bg-slate-100/80 rounded-lg cursor-pointer'>
+                <Link key={`${index}-topic`} href={`/cursos/${topic.uri}`} className='p-4 flex items-center gap-4 bg-slate-100/30 hover:bg-slate-100/80 rounded-lg cursor-pointer'>
                   <div className="">
                     <div className="w-10 h-10 border-2 border-slate-900 rounded-full flex items-center justify-center">
                       <span className='font-semibold text-lg'>

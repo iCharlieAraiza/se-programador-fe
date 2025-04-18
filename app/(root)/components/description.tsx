@@ -1,3 +1,4 @@
+import { COURSES } from '@/constants/data'
 import Link from 'next/link'
 import React from 'react'
 
@@ -37,8 +38,8 @@ const Description = (props: Props) => {
                         <div className="border-l-2 px-4 mb-4">
                             <ul className="bg-[#FFFCF5] rounded">
                                 {
-                                    courses.map((course, index) => (
-                                        <CourseItem key={index} title={course.title} slug={course.slug} />
+                                    COURSES.map((course, index) => (
+                                        <CourseItem key={index} title={course.title} slug={course.slug} modules={course.number} />
                                     ))
                                 }
                             </ul>
@@ -53,13 +54,13 @@ const Description = (props: Props) => {
     )
 }
 
-const CourseItem = ({ title, slug }: { title: string, slug: string }) => {
+const CourseItem = ({ title, slug, modules }: { title: string, slug: string, modules : number }) => {
     return (
-        <Link href={slug} className='p-4 flex items-center gap-2 hover:bg-slate-100/50 rounded cursor-pointer'>
+        <Link href={'/cursos/' + slug} className='p-4 flex items-center gap-2 hover:bg-slate-100/50 rounded cursor-pointer'>
             <div className="w-10 h-10 bg-[#FFB800] rounded-full border-2"></div>
             <div className="">
                 <p className='font-semibold my-[0!important]'>{title}</p>
-                <p className='my-[0!important]'>4 sesiones</p>
+                <p className='my-[0!important]'>{modules} modulos</p>
             </div>
         </Link>
     )
