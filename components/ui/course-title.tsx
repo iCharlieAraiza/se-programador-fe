@@ -12,7 +12,7 @@ export const CourseTitle = (props: Props) => {
     return (
         <>
             <div className="mb-2 md:my-4 text-right">
-                <Link href='temario' className='text-[#937723] font-semibold text-md'>
+                <Link href='/cursos' className='text-[#937723] font-semibold text-md'>
                     &larr; Ver todos los temas
                 </Link>
             </div>
