@@ -7,7 +7,7 @@ type Props = {}
 interface Topic {
   id: string;
   title: string;
-  numberTopics: number,
+  numberModules: number,
   uri: string;
 }
 
@@ -17,25 +17,25 @@ const TemasPage = (props: Props) => {
     {
       id: uuidv4(),
       title: 'Dominar pruebas técnicas',
-      numberTopics: 4,
+      numberModules: 4,
       uri: 'pruebas-tecnicas'
     },
     {
       id: uuidv4(),
       title: 'Entender procesos técnicos',
-      numberTopics: 4,
+      numberModules: 4,
       uri: 'entender-procesos-tecnicos'
     },
     {
       id: uuidv4(),
       title: 'Desarrollar habilidades blandas',
-      numberTopics: 4,
+      numberModules: 4,
       uri: 'desarrollar-habilidades-blandas'
     },
     {
       id: uuidv4(),
       title: 'Conocer el ecosistema de la programación',
-      numberTopics: 4,
+      numberModules: 4,
       uri: 'conocer-ecosistema-programacion'
     }
   ]
@@ -61,7 +61,7 @@ const TemasPage = (props: Props) => {
                   </div>
                   <div className="">
                     <p className='font-semibold my-[0!important] tracking-tight text-lg leading-none'>{topic.title}</p>
-                    <p>{topic.numberTopics} cursos disponibles</p>
+                    <p>{topic.numberModules} modulos disponibles</p>
                   </div>
                 </Link>
               ))
