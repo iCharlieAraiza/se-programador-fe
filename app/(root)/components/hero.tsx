@@ -47,7 +47,7 @@ const Hero = () => {
                         Proyecto de <a href='https://carlosaraiza.me' target="_blank" >Carlos Araiza</a> para Fundación Celis
                     </p>
                     <p className='font-semibold'>
-                        #SoyLiderFunCeili
+                        ##SoyLiderFunCeili
                     </p>
                 </div>
             </div>
