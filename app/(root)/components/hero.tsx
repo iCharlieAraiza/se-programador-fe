@@ -44,10 +44,10 @@ const Hero = () => {
             <div className="border-t">
                 <div className="max-w-6xl mx-auto p-4 flex items-center justify-between">
                     <p className='text-center text-sm'>
-                        Proyecto de <a href='https://carlosaraiza.me' target="_blank" >Carlos Araiza</a> para Fundación Celis
+                        Proyecto de <a href='https://carlosaraiza.me' className='text-red-700 font-semibold' target="_blank" >Carlos Araiza</a> para <a  href='https://fundacion-ceili.org/' className='text-red-700 font-semibold' target="_blank" >Fundación Ceili</a>
                     </p>
-                    <p className='font-semibold'>
-                        ##SoyLiderFunCeili
+                    <p className='font-semibold text-red-700'>
+                        #SoyLiderFunCeili
                     </p>
                 </div>
             </div>
