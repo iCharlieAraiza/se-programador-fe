@@ -18,7 +18,7 @@ const Footer = () => {
                         <ul className='flex space-x-4'>
                             <li><Link href="/">Inicio</Link></li>
                             <li><Link href="/acerca">Acerca de</Link></li>
-                            <li><Link href="/contact">Contacto</Link></li>
+                            <li><Link href="/contacto">Contacto</Link></li>
                         </ul>
                     </nav>
                 </div>
