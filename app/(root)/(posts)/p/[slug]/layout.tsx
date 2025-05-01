@@ -7,7 +7,7 @@ export default function RootLayout({
 }>) {
     return (
         <main>
-            <article className='max-w-3xl mx-auto px-4 py-4 md:py-10'>
+            <article className='max-w-3xl mx-auto px-4 py-4 md:py-10 article-layer'>
                 {children}
             </article>
         </main>

@@ -165,6 +165,20 @@
     margin-top: 0.3em;
   }
   
+  ul, ol {
+    margin: 1em 0;
+    font-size: 1.125rem;
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 1.5em;
+  }
+  ol {
+    list-style: decimal;
+    padding-left: 1em;
+  }
+
 }
 
 

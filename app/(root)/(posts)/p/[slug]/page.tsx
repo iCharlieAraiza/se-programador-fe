@@ -28,6 +28,8 @@ export function generateStaticParams() {
         },
         {
             slug: 'preguntas-frecuentes-con-reclutadores'
+        }, {
+            slug: "errores-comunes-durante-la-primer-entrevista"
         }
     ];
 
