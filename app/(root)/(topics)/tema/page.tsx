@@ -23,7 +23,7 @@ const TemaPage = () => {
             <div className="w-12 h-12 bg-[#F2E6C5] rounded-full border-4"></div>
           </div>
           <div className="">
-            <h1 className='text-3xl font-semibold tracking-tight'>
+            <h1 className='text-4xl font-semibold tracking-tight'>
               Entender procesos técnicos
             </h1>
             <p className='text-lg my-[0!important]'>4 sponibles</p>

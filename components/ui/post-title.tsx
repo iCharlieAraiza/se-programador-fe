@@ -16,7 +16,7 @@ export const PostTitle = (props: Props) => {
                     </span>
                 </div>
             </div>
-            <h1 className='text-3xl font-semibold tracking-tight'>
+            <h1 className='text-4xl font-semibold tracking-tight'>
                 {props.title}
             </h1>
         </header>

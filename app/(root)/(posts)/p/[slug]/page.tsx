@@ -30,7 +30,10 @@ export function generateStaticParams() {
             slug: 'preguntas-frecuentes-con-reclutadores'
         }, {
             slug: "errores-comunes-durante-la-primer-entrevista"
-        }
+        } ,
+         {
+            slug: "que-es-lo-que-se-piden-para-desarrollador-web-front-end-y-full-stack"
+         }
     ];
 
     /*
