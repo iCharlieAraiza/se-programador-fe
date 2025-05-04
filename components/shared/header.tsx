@@ -35,7 +35,7 @@ const Header = () => {
                     </div>
 
                     <nav className='hidden md:flex items-center font-medium'>
-                        <ul className='flex space-x-4'>
+                        <ul className='flex space-x-4 mr-6'>
                             <li className='flex items-center gap-4'>
                                 <span className='text-amber-600 font-bold'>/</span>
                                 <Link href="/acerca">Acerca de</Link></li>
@@ -44,7 +44,7 @@ const Header = () => {
                                 <Link href="/contacto">Contacto</Link>
                             </li>
                         </ul>
-                        <div className="flex items-center space-x-4 ml-4">
+                        <div className="flex items-center space-x-4 ml-4 text-lg">
                             <Link href="/signin">
                                 Iniciar sesión
                             </Link>

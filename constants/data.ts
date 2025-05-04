@@ -41,12 +41,12 @@ export const COURSES: CoursesType[] = [
                 number: 4
             },
             {
-                title: "Qué es lo que se pide para desarrollador Back End",
+                title: "¿Qué es lo que se pide para desarrollador Back End?",
                 slug: "que-es-lo-que-se-pide-para-desarrollador-back-end",
                 number: 5
             },
             {
-                title: "Qué es lo que se pide para desarrollador Movil",
+                title: "¿Qué es lo que se pide para desarrollador Movil?",
                 slug: "que-es-lo-que-se-pide-para-desarrollador-movil",
                 number: 6
             }

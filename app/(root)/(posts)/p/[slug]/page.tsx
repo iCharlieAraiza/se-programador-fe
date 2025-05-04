@@ -33,6 +33,9 @@ export function generateStaticParams() {
         } ,
          {
             slug: "que-es-lo-que-se-piden-para-desarrollador-web-front-end-y-full-stack"
+         },
+         {
+            slug: "que-es-lo-que-se-pide-para-desarrollador-back-end"
          }
     ];
 
