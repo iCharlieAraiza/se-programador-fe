@@ -45,7 +45,7 @@ const Header = () => {
                             </li>
                         </ul>
                         <div className="flex items-center space-x-4 ml-4 text-lg">
-                            <Link href="/signin">
+                            <Link href="/login">
                                 Iniciar sesión
                             </Link>
                             <Link href={"/signup"} className='bg-[#937723] text-white px-6 py-2 rounded-full hover:bg-white hover:text-[#937723] border hover:border-[#937723] transition duration-300 font-medium'>
